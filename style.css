@@ -1,16 +1,21 @@
 /* font-family: "Montserrat", sans-serif; */
 /* font-family: "Bebas Neue", sans-serif; */
+/* font-family: 'Source Sans Pro'; */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(135deg, #cfcbf3, #493a94);
+}
+/* Header */
 .header{
     display: flex;
     width: 100%;
     height: 8vh;
-    background-color: aqua;
+    background-color: #ffffff;
 }
 .logo-header{
     display: flex;
@@ -41,6 +46,9 @@
     
     background: #0062b9;
 }
+.nome-logo-header{
+    align-items: center;
+}
 .nav-header{
     align-items: center;
     display: flex;
@@ -60,5 +68,87 @@
      font-size: 1.6rem;
      padding: 2.2rem 3rem;
      color: #333;
+    }
+}
+/* Home */
+.home{
+    height:95vh;
+}
+.home-entrada{
+    margin-left: 5%;
+}
+.wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } 
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+.nome-home-entrada{
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #ffffff;
+}
+.nome-home{
+    display: flex;
+    color: #ffffff;
+}
+.nomeprincipal-home{
+    color: rgb(68, 68, 201);
+    margin-left: 1rem;
+}
+.brief-home{
+    width: 40%;
+    height:30vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    p{
+        word-break: normal;
+        color: #ffffff;
+    }
+    
+}
+.contato{
+    display: flex;
+}
+.sobre-home{
+    a{
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    } 
+    input{
+        width: 30%;
+        height: 5vh;
     }
 }
