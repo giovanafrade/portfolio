@@ -9,6 +9,9 @@
 }
 body{
   background: linear-gradient(135deg, #cfcbf3, #493a94);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 /* Header */
 .header{
@@ -72,9 +75,14 @@ body{
 /* Home */
 .home{
   height:95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .home-entrada{
-  margin-left: 5%;
+  margin-left: 16%;
+  width: 50%;
 }
 .wave {
   animation-name: wave-animation; 
@@ -114,7 +122,7 @@ body{
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   font-size: 3rem;
-  margin-top: 10%;
+  margin-top: 2vh;
   color: #ffffff;
 }
 .nome-home{
@@ -126,7 +134,7 @@ body{
   margin-left: 1rem;
 }
 .brief-home{
-  width: 40%;
+  width: 80%;
   height:25vh;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -139,9 +147,12 @@ body{
 }
 .sobre{
   display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .sobre-home{
-  width: 14%;
+  width: 30%;
   height: 6vh;
   border-radius: 3rem;
   background-color: #ffffff4f;
@@ -177,4 +188,29 @@ body{
   a{
     text-decoration: none;
   }
+}
+#email:hover{
+  color: #493a94;
+  transition: 0.5s;
+}
+#github:hover{
+  color: #493a94;
+  transition: 0.5s;
+}
+#whatsapp:hover{
+  color: #493a94;
+  transition: 0.5s;
+}
+.img-home-main{
+  align-items: center;
+  width: 50%;
+  align-items: center;
+}
+.img-home{
+  width: 32rem;
+  height: 32rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
