@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailer</title>
+</head>
+<style>
+    body {
+        background-image: url(../../backgroundtrailerhome.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+    }
+
+    nav {
+        margin-left: 310px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style: none;
+        padding-right: 60px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-family: "Bebas Neue", sans-serif;
+        color: black;
+    }
+
+    a:hover {
+        color: #b61a2b;
+    }
+
+    img {
+        justify-content: start;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 400px;
+        cursor: pointer;
+    }
+
+    .movie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+</style>
+
+<body>
+    <header>
+        <a href="../esperanca.html"><img src="../../logo.svg"></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="../parte1/histParte1.html">História</a></li>
+                <li><a href="../parte1/fichaParte1.html">Ficha Técnica</a></li>
+                <li><a href="../parte1/trailerParte1.html">Trailer</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="movie">
+        <video width="55%" controls>
+            <source src="../parte1/traileraesperanca1.mp4" type="video/mp4">
+        </video>
+</body>
+
+</html>

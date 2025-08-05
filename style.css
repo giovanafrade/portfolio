@@ -240,7 +240,7 @@ body{
 }
 .tela-sobre{
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
 }
 .foto-sobre{
@@ -278,7 +278,220 @@ body{
     font-size: 1.2rem;
     color: #ffffff;
   }
+  h1{
+    word-break: normal;
+    text: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 }
+.tecnologias{
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-content: center;
+}
+.tecnologias2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#html-logo{
+  width: 80%;
+  height: 10vh;
+}
+#css-logo{
+  width: 80%;
+  height: 10vh;
+}
+#javascript-logo{
+  width: 80%;
+  height: 10vh;
+  margin-top: 1rem;
+  border-radius: 1.1rem;
+}
+#php-logo{
+  width: 80%;
+  height: 12vh;
+}
+#python-logo{
+  width: 55%;
+  height: 8vh;
+  margin-top: 1rem;
+}
+#azure-logo{
+  width: 50%;
+  height: 10vh;
+}
+#git-logo{
+  width: 50%;
+  height: 10vh;
+}
+.tec-logos{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 15%;
+  height: 14vh;
+  border: 0.5px solid #3333335e;
+  border-color: #333;
+  border-radius: 0.5rem;
+  margin-left: 3vh;
+}
+.tec-logos2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 15%;
+  height: 14vh;
+  border: 0.5px solid #3333335e;
+  border-color: #333;
+  border-radius: 0.5rem;
+  margin-left: 3vh;
+}
+
+/* Projetos */
+#projetos{
+  h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+  }
+}
+.tela-projetos{
+  width: 100%;
+  height: 90vh;
+}
+.eachprojeto{
+  display: flex;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.eachprojeto2{
+  display: flex;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.imagem-projeto{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  img{
+    width: 80%;
+  }
+}
+.texto-projeto{
+  width: 50%;
+}
+
+
+/* Contato */
+#contato{
+  h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+  }
+}
+.tela-contato{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -299,7 +512,7 @@ body{
   justify-content: center;
   align-self: center;
   justify-items: center;
-  margin-left: 70px;
+  margin-left: 120px;
   a{
     color: #ffffff;
     font-size: 1.5rem;

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../sobre/styleSobre.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre</title>
+</head>
+
+<body>
+  <header>
+    <a href="../home.html"><img src="../logo.svg"></a>
+    <h1>Personagens</h1>
+  </header>
+
+  <div class="slideshow-container">
+    <div class="mySlides1">
+      <img src="../sobre/personagens/1.jenniferlawrence-katnissok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/2.joshhuterchon-peetaok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/2.effietrinket-elizabethbanksok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/4.WoodyHarrelson-Haymitchok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/5.donaldsutherland-Snowok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/6.StanleyTucci-CaesarFlickermanok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/7.LennyKravitz-cinnaok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/8PaulaMalcomson-sraeverdeenok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/9.WillowShields-Primroseok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/10.LiamHemsworth-Galeok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/11.JulianneMoore-AlmaCoinok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/12.SamClaflin-Finnickok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/13.JenaMalone-Johhanaok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/14.AmandlaStenberg-RueRueok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/15.LynnCohen-Magsok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/16.AlexanderLudwig-Catook.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/17.Beetee-JeffreyWrightok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/18,AmandaPlummer-Wiressok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/19.PhilipSeymourHoffman-Plutarchok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/20.PatinaMiller-ComandantePaylorok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/21.MichelleForbes-Jacksonok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/22.Mahershala Ali-Boggsok.svg" style="width:70%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="../sobre/personagens/23.GwendolineChristie-ComandantePaylorok.svg" style="width:70%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+
+  <script>
+    //Para funcionamento do carrossel
+    let slideIndex = [1, 1]; // Cria array chamado slideIndex em que armazena o índice atual de cada slideshow.
+    let slideId = ["mySlides1"] // Cria array chamado slideId que contém os nomes das classes dos elementos dos slides de cada slideshow.
+    showSlides(1, 0); // Chama a função showSlides() para mostrar o slide 1 do primeiro slideshow (índice 0).
+    showSlides(1, 1); // Chama a função showSlides() para mostrar o slide 1 do segundo slideshow (índice 1).
+    //Garante que quando a página carregar, os dois slideshows exibam o primeiro slide.
+    function plusSlides(n, no) { //Define a função plusSlides com 2 parâmetros: n = número de slides a avançar (positivo) ou voltar (negativo); no = qual slideshow estamos mexendo (0 para o primeiro, 1 para o segundo, etc).
+      showSlides(slideIndex[no] += n, no);
+      // Atualiza o índice do slide atual, somando n. E chama showSlides() para mostrar o novo slide atualizado.
+    }
+
+    function showSlides(n, no) { // Define a função showSlides, que também recebe dois parâmetros: n= o número do slide que queremos mostrar. no = qual slideshow vamos atualizar.
+      let i; //Cria uma variável i, que será usada num loop mais abaixo.
+      let x = document.getElementsByClassName(slideId[no]); //Pega todos os elementos HTML com a classe slideId[no] e armazena esses elementos no array x.
+      if (n > x.length) { slideIndex[no] = 1 } //Se o número do slide (n) for maior do que o total de slides, volta para o primeiro slide (evita erro ao passar do último slide)
+      if (n < 1) { slideIndex[no] = x.length } //Se n for menor que 1, tentamos voltar pro antes do primeiro. Então, ele vai para o último slide.
+      for (i = 0; i < x.length; i++) { //Loop que oculta todos os slides do slideshow atual, um por um.
+        x[i].style.display = "none";//Faz com que o slide não apareça na tela.
+      }
+      x[slideIndex[no] - 1].style.display = "block"; //Mostra apenas o slide atual, baseado no índice.
+
+    }
+  </script>
+</body>
+
+</html>
