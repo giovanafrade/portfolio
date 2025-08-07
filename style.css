@@ -84,6 +84,7 @@ body{
 #contato-header:hover{
   color: #493a94;
 }
+
 /* Home */
 .home{
   height:95vh;
@@ -257,7 +258,7 @@ body{
 }
 .texto-sobre{
   width: 50%;
-  margin-top: 5%;
+  margin-top: 2%;
   p{  
     width: 90%;
     word-break: normal;
@@ -280,7 +281,7 @@ body{
   }
   h1{
     word-break: normal;
-    text: uppercase;
+    text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
@@ -374,7 +375,7 @@ body{
 }
 .tela-projetos{
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 .eachprojeto{
   display: flex;
@@ -393,14 +394,50 @@ body{
   align-content: center;
   align-items: center;
   img{
-    width: 80%;
+    width: 70%;
   }
 }
 .texto-projeto{
   width: 50%;
+  h2{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+    width: 70%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    word-break: normal;
+    color: #ffffff;
+  }
 }
+.botao-versite{
+  width: 18%;
+  background-color: #a99ee2cb;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #ffffff;
+   
+  }
+}
+.botao-versite:hover{
+  background-color: #493a948c;
+  transition: 0.5s;
 
-
+}
 /* Contato */
 #contato{
   h1{
@@ -420,78 +457,90 @@ body{
   height: 100vh;
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form-contato{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.form-contato-container{
+  width: 40%;
+  height: 80vh;
+  background-color: #291a3649;
+  border-radius: 2rem;
+  font-family: 'Source Sans Pro', sans-serif; 
+  padding: 4rem;
+  margin-top: 4rem;
+  backdrop-filter: blur(20px);
+}
+.form-contato-conteudo{
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  label{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif; 
+  }
+} 
+.input_box{
+  margin-bottom: 2%;
+  background-color: rgba(240, 232, 232, 0.842);
+  position: relative;
+  border-radius: 15px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  transition: ease 0.15s;
+  input{
+    justify-content: right;
+    border-radius: 15px;
+    width: 100%;
+    padding: 4%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family:"Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    outline: none;
+
+  }
+  textarea{
+    width: 100%;
+    padding: 4%;
+    justify-content: left;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: transparent; 
+    font-family:"Montserrat", sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    outline: none;
+  }
+}
+.botao-enviar-form-contato{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  button{
+    background-color: transparent;
+    border-color: transparent;
+    font-family:"Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 30%;
+    height: 6vh;
+    background-color: #9884bd; 
+    border-radius: 2rem;
+  }
+}
 
 
 
@@ -520,7 +569,6 @@ body{
     transition: color 0.3s ease;
   }
 }
-
 .col-md-6 {
   display: flex;
 }

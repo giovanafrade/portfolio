@@ -34,7 +34,7 @@
                 </ul>
             </div>
         </header>
-        <div class="home" id="home">
+        <section class="home" id="home">
             <div class="home-entrada">
                 <div class="nome-home-entrada">
                     <h1>Olá!
@@ -66,8 +66,8 @@
                     <img src="media/fotogiovana.jpeg" class="img-home"/>
                 </div>
             </div>
-        </div>
-        <div id="sobre">
+        </section>
+        <section id="sobre">
             <h1>sobre</h1>
             <div class="tela-sobre">
                 <div class="foto-sobre">
@@ -116,8 +116,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="projetos">
+        </section>
+        <section id="projetos">
             <h1>projetos</h1>
             <div class="tela-projetos">
                 <div class="eachprojeto">
@@ -126,7 +126,13 @@
                     </div>
                     <div class="texto-projeto">
                         <h2>Projeto 1 - Jogos Vorazes</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus cumque doloribus magnam odio minima aut veniam exercitationem cum, impedit libero natus eligendi provident eveniet dolorem! Temporibus cumque sapiente omnis.</p>
+                        <p>O projeto consiste em um website em que contém as informações gerais sobre cada filme da saga Jogos Vorazes, inspirado nos livros de Suzanne Collins, como ficha técnica, uma breve sinopse e o trailer.
+                            A finalidade é induzir novos espectadores a consumir a saga de filmes.
+                        </p>
+                        <div class="botao-versite">
+                            <a href="media/Jogos Vorazes/home.html" target="_blank">Ver Site</a>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="eachprojeto2">
@@ -135,31 +141,68 @@
                     </div>
                     <div class="texto-projeto">
                         <h2>Projeto 2 - Sprout</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus cumque doloribus magnam odio minima aut veniam exercitationem cum, impedit libero natus eligendi provident eveniet dolorem! Temporibus cumque sapiente omnis.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="contato">
-            <h1>contato</h1>
-            <div class="tela-contato">
-
-            </div>
-        </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <p class="mb-0">&copy; 2025 Giovana Frade. Todos os direitos reservados.</p>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="social-icons">
-                            <a href="https://github.com/giovanafrade" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
-                            <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-at" id="email"></i></a>
-                            <a href="https://wa.me/5511957150430?text=Ol%C3%A1!" target="_blank"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+                        <p>O projeto consiste em um sistema em que o usuário poderá criar contatos e gerenciá-los,
+                            criando grupos e adicionando contatos a eles. O utilizador do site também tem a opção
+                            de mudar a cor-tema do site, alterando para cor de sua preferência, pois o sistema
+                            prioriza a entrega de um sistema de qualidade ao usuário e que vá de acordo com o gosto do
+                            usuário.
+                        </p>
+                        <div class="botao-versite">
+                            <a href="media/sprout/index.html" target="_blank">Ver Site</a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h1>contato</h1>
+            <div class="tela-contato">
+                <div class="form-contato">
+                    <div class="form-contato-container">
+                        <form action="#" class="contact__form">
+                            <div class="form-contato-conteudo">
+                                <label for="name">Nome</label><br>
+                                <div class="input_box">
+                                    <input required="" placeholder="Digite seu Nome" type="text" class="contact__form-input" name="name" id="name">
+                                </div>
+                                
+                            </div>
+                            <div class="form-contato-conteudo">
+                                <label for="email">Email</label><br>
+                                <div class="input_box">
+                                    <input required="" placeholder="Digite seu Email" type="text" class="contact__form-input" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="form-contato-conteudo">
+                                <label for="message">Mensagem</label><br>
+                                <div class="input_box">
+                                    <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Digite sua mensagem" name="message" id="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="botao-enviar-form-contato">
+                                <button type="submit">Enviar</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0">&copy; 2025 Giovana Frade. Todos os direitos reservados.</p>
+                </div>
+
+                <div class="col-md-6 text-center text-md-end">
+                <div class="social-icons">
+                    <a href="https://github.com/giovanafrade" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                    <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-at" id="email"></i></a>
+                    <a href="https://wa.me/5511957150430?text=Ol%C3%A1!" target="_blank"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+                </div>
+                </div>
+            </div>
             </div>
         </footer>
     </body>
