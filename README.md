@@ -72,5 +72,10 @@ Você pode me encontrar em:
 
 1. Instale o [XAMPP](https://www.apachefriends.org/index.html)
 2. Clone este repositório na pasta `htdocs`:
+3. Acesse o arquivo "index.php"
+
+### 👨‍💻 Autor
+
+Feito com ❤️ por [Giovana Frade](https://github.com/giovanafrade).
    ```bash
    git clone https://github.com/giovanafrade/portfolio.git
