@@ -1,0 +1,5 @@
+O projeto consiste em um sistema em que o usuário poderá criar contatos e gerenciá-los,
+                                criando grupos e adicionando contatos a eles. O utilizador do site também tem a opção
+                                de mudar a cor-tema do site, alterando para cor de sua preferência, pois o sistema
+                                prioriza a entrega de um sistema de qualidade ao usuário e que vá de acordo com o gosto do
+                                usuário.

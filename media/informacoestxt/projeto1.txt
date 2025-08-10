@@ -1,0 +1,1 @@
+O projeto consiste em um website em que contém as informações gerais sobre cada filme da saga Jogos Vorazes, inspirado nos livros de Suzanne Collins, como ficha técnica, uma breve sinopse e o trailer. A finalidade é induzir novos espectadores a consumir a saga de filmes.
