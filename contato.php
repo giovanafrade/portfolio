@@ -20,13 +20,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         file_put_contents($arquivo, $dados, FILE_APPEND);
 
         // Retorno de sucesso
-        echo "Mensagem enviada com sucesso!";
+        echo "<script>
+        alert('Mensagem enviada com sucesso! Obrigada pelo contato, $nome!');
+        window.location.href = 'index.php';
+        </script>";
     } else {
-        echo "Por favor, preencha todos os campos.";
+        echo "<script>
+        alert('Por favor, preencha todos os campos.');
+        window.location.href = 'index.php#contato';
+        </script>";
     }
 
 } else {
     // Se o formulário não foi enviado via POST
-    echo "Método de envio inválido.";
+    echo "<script>
+    alert('Método de envio inválido. Tente novamente');
+    window.location.href = 'index.php#contato';
+    </script>";
 }
 ?>
