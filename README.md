@@ -12,34 +12,33 @@ Este é o meu portfólio pessoal desenvolvido com foco em **Desenvolvimento Web 
 
 ---
 
-## 📁 Estrutura do Projeto
-/
-├── index.php                       # Página inicial (Home)
-├── style.css                       # Estilo principal do site
-├── media/                          # Imagens e logos
-│   ├── fotogiovana.jpeg
-│   ├── fotoheader.png
-│   ├── mulher.png
-│   ├── imagensprojetos/
-│   │   ├── jogosvorazes-pc.png
-│   │   └── sprout-pc.png
-│   └── logostecnologias/
-│       ├── azure-logo.png
-│       ├── css-logo.png
-│       ├── git-logo.png
-│       ├── html-logo.png
-│       ├── javascript-logo.png
-│       ├── php-logo.png
-│       └── python-logo.png
-├── informacoestxt/                # Arquivos .txt com informações dinâmicas
-│   ├── briefhome.txt
-│   ├── textosobre.txt
-│   ├── projeto1.txt
-│   └── projeto2.txt
-├── contato.php                    # Script para envio de mensagens via formulário
-├── mensagens_contato.txt          # Onde as mensagens de contato serão armazenadas
 
----
+## 📁 Estrutura do Projeto
+* [index.php](./index.php) - Página inicial (Home)
+* [style.css](./style.css) - Estilo principal do site
+* [media](./media) - Imagens e logos
+  * [fotogiovana.jpeg](./media/fotogiovana.jpeg)
+  * [fotoheader.png](./media/fotoheader.png)
+  * [mulher.png](./media/mulher.png)
+  * [imagensprojetos](./media/imagensprojetos)
+    * [jogosvorazes-pc.png](./media/imagensprojetos/jogosvorazes-pc.png)
+    * [sprout-pc.png](./media/imagensprojetos/sprout-pc.png)
+  * [logostecnologias](./media/logostecnologias)
+    * [azure-logo.png](./media/logostecnologias/azure-logo.png)
+    * [css-logo.png](./media/logostecnologias/css-logo.png)
+    * [git-logo.png](./media/logostecnologias/git-logo.png)
+    * [html-logo.png](./media/logostecnologias/html-logo.png)
+    * [javascript-logo.png](./media/logostecnologias/javascript-logo.png)
+    * [php-logo.png](./media/logostecnologias/php-logo.png)
+    * [python-logo.png](./media/logostecnologias/python-logo.png)
+  * [informacoestxt](./informacoestxt) - Arquivos .txt com informações dinâmicas
+    * [briefhome.txt](./informacoestxt/briefhome.txt)
+    * [textosobre.txt](./informacoestxt/textosobre.txt)
+    * [projeto1.txt](./informacoestxt/projeto1.txt)
+    * [projeto2.txt](./informacoestxt/projeto2.txt)
+* [contato.php](./contato.php) - Script para envio de mensagens via formulário e salvar informações no arquivo .txt "mensagens_contato.txt"
+* [mensagens_contato.txt](./mensagens_contato.txt) - Onde as mensagens de contato serão armazenadas
+
 
 ## 💡 Funcionalidades
 
