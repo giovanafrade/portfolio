@@ -71,7 +71,7 @@
                     </div>
                     <div class="sociais">
                         <a href="https://github.com/giovanafrade" target="_blank"><i class="fa-brands fa-github fa-2xl" id="github"></i></a>
-                        <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-at fa-2xl" id="email"></i></a>
+                        <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl" id="email"></i></a>
                         <a href="https://wa.me/5511957150430?text=Ol%C3%A1!" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl" id="whatsapp"></i></a>
                     </div>
                 </div>
@@ -146,6 +146,9 @@
                         <div class="tec-logos">
                             <img src="media/logostecnologias/azure-logo.png" id="azure-logo">
                         </div>
+                        <div class="tec-logos">
+                            <img src="media/logostecnologias/figma-logo.png" id="figma-logo">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,8 +182,14 @@
                                 Suzanne Collins, como ficha técnica, uma breve sinopse e o trailer.
                                 A finalidade é induzir novos espectadores a consumir a saga de filmes. -->
                         </p>
+                        <div class="tecnologias-projeto">
+                            <i class="fa-brands fa-html5 fa-2xl" id="html-icon"></i>
+                            <i class="fa-brands fa-css3-alt fa-2xl" id="css-icon"></i>
+                        </div>
                         <div class="botao-versite">
-                            <a href="media/Jogos Vorazes/home.html" target="_blank">Ver Site</a>
+                            <div class="botao">
+                                <a href="media/Jogos Vorazes/home.html" target="_blank">Ver Site</a>
+                            </div>
                         </div>
 
                     </div>
@@ -212,8 +221,17 @@
                             prioriza a entrega de um sistema de qualidade ao usuário e que vá de acordo com o gosto do
                             usuário. -->
                         </p>
+                        <div class="tecnologias-projeto">
+                            <i class="fa-brands fa-html5 fa-2xl" id="html-icon"></i>
+                            <i class="fa-brands fa-css3-alt fa-2xl" id="css-icon"></i>
+                            <i class="fa-brands fa-square-js fa-2xl" id="js-icon"></i>
+                            <i class="fa-brands fa-regular fa-php fa-2xl" id="php-icon"></i>
+                        </div>
                         <div class="botao-versite">
-                            <a href="media/Sprout/index.html" target="_blank">Ver Site</a>
+                            <div class="botao">
+                                <a href="media/Sprout/index.html" target="_blank">Ver Site</a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
