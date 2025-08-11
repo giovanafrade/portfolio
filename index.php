@@ -213,10 +213,7 @@
                             usuário. -->
                         </p>
                         <div class="botao-versite">
-                            <a href="https://github.com/giovanafrade/sprout.git" target="_blank"
-                                onclick="alert('Para utilizar o sistema, é necessário baixar o zip do website no Github e utilizar um servidor Apache!')">Ver
-                                Site
-                            </a>
+                            <a href="media/Sprout/index.html" target="_blank">Ver Site</a>
                         </div>
                     </div>
                 </div>
