@@ -247,13 +247,13 @@ body{
 .foto-sobre{
   width: 50%;
   img{
+    width: 32rem;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
     margin-left: 25%;
     margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 50%;
-    height: 70%
   }
 }
 .texto-sobre{
@@ -289,6 +289,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 1rem;
   }
 }
 .tecnologias{
@@ -402,6 +403,7 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-top: 2%;
   img{
     width: 70%;
   }
@@ -438,8 +440,51 @@ body{
     font-size: 2.3rem;
   }
 }
-
-
+#html-icon:hover{
+  color: #493a94;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#css-icon:hover{
+  color: #493a94;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#js-icon:hover{
+  color: #493a94;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#php-icon:hover{
+  color: #493a94;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+[aria-label] {
+  position: relative;
+  }
+  
+[aria-label]::after {
+  content: attr(aria-label);
+  display: none;
+  position: absolute; 
+  top: 1.2rem;
+  left: 0px;
+  pointer-events: none;
+  padding: 1rem 1rem 0rem 1.2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  width: fit-content;
+  height:2vh;
+  background-color: #493a94;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+[aria-label]:hover::after {
+  display: block;
+}
 .botao-versite{
   width: 70%;
   padding-top: 3% ;
@@ -468,6 +513,8 @@ body{
     transition: 0.5s;
   }
 }
+
+
 /* Contato */
 #contato{
   h1{
@@ -493,7 +540,6 @@ body{
   align-content: center;
   width: 100%;
 }
-
 .form-contato-container{
   width: 40%;
   height: 80vh;
@@ -578,7 +624,6 @@ body{
     transition: 0.5s;
   }
 }
-
 
 
 /* Footer */

@@ -1,0 +1,10 @@
+Microsoft AI-102: Desenvolvimento de Soluções em Inteligência Artificial (Maio – Junho de 2025, 60h);
+Microsoft AI-900: Implantação de Serviços de Inteligência Artificial em Nuvem (Fevereiro de 2025, 40h);
+Excel Básico (Março – Abril de 2025, 20h);
+Ética na Inteligência Artificial (Março – Abril de 2025, 4h); 
+Segurança no Trabalho (Março – Abril de 2025, 14h);
+Fluência - Fundamentos da Inteligência Artificial (Janeiro – Fevereiro de 2025, 8h);
+Fotografia Digital (Janeiro – Fevereiro de 2025, 40h);
+Design UX e UI (Novembro – Dezembro de 2024, 40h);
+Microsoft Power-BI (Outubro – Novembro de 2024, 32h);
+Microsoft PL-500: Desenvolvedor de RPA Microsoft Power Automate (Outubro – Novembro de 2024, 32h)
