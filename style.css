@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 90px;
+}
 body{
   background: linear-gradient(135deg, #cfcbf3, #493a94);
   background-repeat: no-repeat;
@@ -19,6 +23,8 @@ body{
   width: 100%;
   height: 8vh;
   background-color: #ffffff;
+  position: fixed;
+  z-index: 1000;
 }
 .logo-header{
   display: flex;
@@ -86,8 +92,8 @@ body{
 }
 
 /* Home */
-.home{
-  height:95vh;
+#home{
+  height:100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +110,12 @@ body{
   transform-origin: 70% 70%;
   display: inline-block;
   }
-  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50% {left: 200px; top: 0%;}
+    100% {left: 200px; top: 0%;}
+  }
   @keyframes wave-animation {
     0% {
       transform: rotate(0deg);
@@ -162,6 +173,7 @@ body{
   display: flex;
   margin-top: 3%;
 }
+
 .sobre-home{
   width: 30%;
   height: 6vh;
@@ -237,6 +249,7 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.8rem;
+    margin-top: 0;
   }
 }
 .tela-sobre{
@@ -258,7 +271,7 @@ body{
 }
 .texto-sobre{
   width: 50%;
-  margin-top: 2%;
+  margin-top: 1.3%;
   p{  
     width: 90%;
     word-break: normal;
@@ -269,14 +282,14 @@ body{
     font-size: 1.2rem;
   }
   ul{
-    margin-left: 5%;
-    width: 82%;
+    margin-left: 4.2%;
+    width: 90%;
   }
   li{
     word-break: normal;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     color: #ffffff;
   }
   h1{
@@ -289,7 +302,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 1rem;
+    margin-top: 0;
   }
 }
 .tecnologias{
@@ -547,7 +560,7 @@ body{
   border-radius: 2rem;
   font-family: 'Source Sans Pro', sans-serif; 
   padding: 4rem;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   backdrop-filter: blur(20px);
 }
 .form-contato-conteudo{

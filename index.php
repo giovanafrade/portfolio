@@ -13,15 +13,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/167f6b34b8.js" crossorigin="anonymous"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 
     <body>
+        <!-- Header -->
         <header class="header">
             <div class="logo-header">
                 <a href="index.php"><img src="media/fotoheader.png" class="img-logo-header" /></a>
                 <a href="index.php" class="nome-logo-header">Giovana Frade.</a>
             </div>
-
+            <!-- Parte navegável do Header  -->
             <div class="nav-header">
                 <ul>
                     <li>
@@ -36,7 +38,8 @@
                 </ul>
             </div>
         </header>
-        <section class="home" id="home">
+        <!-- Home -->
+        <section class="animate__animated animate__backInDown" id="home">
             <div class="home-entrada">
                 <div class="nome-home-entrada">
                     <h1>Olá!
@@ -81,7 +84,8 @@
                 </div>
             </div>
         </section>
-        <section id="sobre">
+        <!-- Sobre -->
+        <section id="sobre" >
             <h1>sobre</h1>
             <div class="tela-sobre">
                 <div class="foto-sobre">
@@ -147,7 +151,8 @@
                 </div>
             </div>
         </section>
-        <section id="projetos">
+        <!-- Projetos -->
+        <section id="projetos" >
             <h1>projetos</h1>
             <div class="tela-projetos">
                 <div class="eachprojeto">
@@ -214,9 +219,11 @@
                 </div>
             </div>
         </section>
-        <section id="contato">
+        <!-- Contato -->
+        <section id="contato" >
             <h1>contato</h1>
             <div class="tela-contato">
+                <!-- Formulário Contato -->
                 <div class="form-contato">
                     <div class="form-contato-container">
                         <form action="contato.php" method="POST" class="contact__form">
@@ -248,6 +255,7 @@
                 </div>
             </div>
         </section>
+        <!-- Footer -->
         <footer class="footer">
             <div class="container">
                 <div class="row align-items-center">
@@ -258,12 +266,14 @@
                     <div class="col-md-6 text-center text-md-end">
                         <div class="social-icons">
                             <a href="https://github.com/giovanafrade" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
-                            <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-at" id="email"></i></a>
+                            <a href="mailto:13gialves@gmail.com" target="_blank"><i class="fa-solid fa-envelope" id="email"></i></a>
                             <a href="https://wa.me/5511957150430?text=Ol%C3%A1!" target="_blank"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        <!-- Determinando Script Js -->
+        <script src="script.js"></script>
     </body>
 </html>

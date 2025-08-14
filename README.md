@@ -16,6 +16,7 @@ Este é o meu portfólio pessoal desenvolvido com foco em **Desenvolvimento Web 
 ## 📁 Estrutura do Projeto
 * [index.php](./index.php) - Página inicial (Home)
 * [style.css](./style.css) - Estilo principal do site
+* [script.js](./script.js) - Script para Scroll Do site
 * [media](./media) - Imagens e logos
   * [fotogiovana.jpeg](./media/fotogiovana.jpeg)
   * [fotoheader.png](./media/fotoheader.png)
